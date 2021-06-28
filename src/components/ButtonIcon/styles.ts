@@ -1,5 +1,5 @@
-import { StyleSheet } from "react-native";
-import { theme } from "../../global/styles/theme";
+import { StyleSheet } from 'react-native';
+import { theme } from '../../global/styles/theme';
 
 export const styles = StyleSheet.create({
   container: {
@@ -16,7 +16,6 @@ export const styles = StyleSheet.create({
     fontSize: 15,
     textAlign: 'center'
   },
-
   iconWrapper: {
     width: 56,
     height: 56,
@@ -25,9 +24,8 @@ export const styles = StyleSheet.create({
     borderRightWidth: 1,
     borderColor: theme.colors.line
   },
-
   icon: {
     width: 24,
     height: 18
   }
-})
+});
